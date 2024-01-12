@@ -26,18 +26,17 @@
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
-\definecolor{blue}{HTML}{0000FF}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Main Title Font Definitions
 %Used for Name  and Section Headings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def \pathtitlefont {fonts/sourcesanspro/} 
-\def \firstnamefont {sourcesanspro-SemiBold}
-\def \secondnamefont {sourcesanspro-light}
-\def \titlefont {\firstnamefont}
-\def \namefontsize {9.5}
+%\def \pathtitlefont {fonts/sourcesanspro/} 
+%\def \firstnamefont {sourcesanspro-SemiBold}
+%\def \secondnamefont {sourcesanspro-light}
+%\def \titlefont {\firstnamefont}
+%\def \namefontsize {9.5}
 
 %% Office Code Pro D Title:
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,11 +56,11 @@
 
 %% Source Serif Pro Title:
 %%%%%%%%%%%%%%%%%%%%%%%%%
-% \def \pathtitlefont {fonts/sourceserifpro/} 
-% \def \firstnamefont {sourceserifpro-SemiBold}
-% \def \secondnamefont {sourceserifpro-light}
-% \def \titlefont {\firstnamefont}
-% \def \namefontsize {9.5}
+ \def \pathtitlefont {fonts/sourceserifpro/} 
+ \def \firstnamefont {sourceserifpro-SemiBold}
+ \def \secondnamefont {sourceserifpro-light}
+ \def \titlefont {\firstnamefont}
+ \def \namefontsize {9.5}
 
 %% Prata Title:
 %%%%%%%%%%%%%%%%%%%%%%%%%
