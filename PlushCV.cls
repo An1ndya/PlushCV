@@ -15,8 +15,6 @@
 \usepackage{graphicx}
 \usepackage{pifont}
 \usepackage[document]{ragged2e}
-
-
 % Publications
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
@@ -28,6 +26,8 @@
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
+\definecolor{blue}{HTML}{0000FF}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Main Title Font Definitions
@@ -46,7 +46,6 @@
 % \def \secondnamefont {officecodeprod-regular}
 % \def \titlefont {\firstnamefont}
 % \def \namefontsize {9.5}
-
 
 %% Source Sans Pro Title:
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -213,11 +212,11 @@ Last Updated on \today
 %Contact Line
 \newcommand{\contactline}[5]{\begingroup
 \setbox0=\hbox{
-\includegraphics[scale=0.23,trim={1.4cm 1.25cm -0.4cm 0cm}]{icons/main/home.png}{#1}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/github.png}{#2}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/linkedin.png}{#3}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/mail.png}{#4}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/phone.png}{#5}
+\includegraphics[scale=0.17,trim={1.4cm 1.25cm -0.4cm 0cm}]{icons/main/linkedin.png}{#1}\hspace{0.2cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/github.png}{#2}\hspace{0.3cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/website.png}{#3}\hspace{0.2cm}
+\includegraphics[scale=0.17,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/email.png}{#4}\hspace{0.2cm}
+\includegraphics[scale=0.14,trim={0cm 1.25cm -0.4cm 0cm}]{icons/main/phone.png}{#5}
 }\parbox{\wd0}{\box0}\endgroup}
 
 %Inline Centered Logo
